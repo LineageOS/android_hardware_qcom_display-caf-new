@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da0c15f0_d0585459",
+        "filename": "libgralloc/gralloc_priv.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2014-05-22T06:51:57Z",
+      "side": 0,
+      "message": "Couldn\u0027t you just remove this define and make it a board config rather than a complete revert?",
+      "revId": "80c0c5b5976e08c2e41b38cafba290121ed6246c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
