@@ -16,6 +16,24 @@
       "revId": "80c0c5b5976e08c2e41b38cafba290121ed6246c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da0c15f0_d006941f",
+        "filename": "libgralloc/gralloc_priv.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2014-05-22T07:04:09Z",
+      "side": 0,
+      "message": "Could you do this? I\u0027am not familiar with this board config stuff :/",
+      "parentUuid": "da0c15f0_d0585459",
+      "revId": "80c0c5b5976e08c2e41b38cafba290121ed6246c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
