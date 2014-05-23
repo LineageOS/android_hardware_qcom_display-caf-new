@@ -161,7 +161,8 @@ eDest Overlay::nextPipe(eMdpPipeType type, int dpy, int mixer) {
 utils::eDest Overlay::getPipe(const PipeSpecs& pipeSpecs) {
     if(MDPVersion::getInstance().is8x26()) {
         return getPipe_8x26(pipeSpecs);
-    } else if(MDPVersion::getInstance().is8x16()) {
+    } else if(MDPVersion::getInstance().is8x16() ||
+              MDPVersion::getInstance().is8x74v2()) {
         return getPipe_8x16(pipeSpecs);
     }
 
