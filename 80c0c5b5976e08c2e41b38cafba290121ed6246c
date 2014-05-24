@@ -70,6 +70,24 @@
       "revId": "80c0c5b5976e08c2e41b38cafba290121ed6246c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da0c15f0_c1bec4fe",
+        "filename": "libgralloc/gralloc_priv.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2014-05-24T04:59:26Z",
+      "side": 0,
+      "message": "Revert the changes just because of some devices are not good at is not a good idea at all IMHO",
+      "parentUuid": "da0c15f0_41cab4a2",
+      "revId": "80c0c5b5976e08c2e41b38cafba290121ed6246c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
