@@ -16,6 +16,24 @@
       "revId": "db9b0b8dbf5f0acb8bae82240353389f3ad5a203",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da0c15f0_1c2b0332",
+        "filename": "libgralloc/gralloc_priv.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1391
+      },
+      "writtenOn": "2014-05-25T20:12:00Z",
+      "side": 1,
+      "message": "That\u0027s exactly what #undef does. I\u0027m sure there was a reason this was enabled by default as well.",
+      "parentUuid": "da0c15f0_7c131f5d",
+      "revId": "db9b0b8dbf5f0acb8bae82240353389f3ad5a203",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
