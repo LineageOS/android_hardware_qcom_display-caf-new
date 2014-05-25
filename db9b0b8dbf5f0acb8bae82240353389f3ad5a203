@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da0c15f0_7c131f5d",
+        "filename": "libgralloc/gralloc_priv.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 6194
+      },
+      "writtenOn": "2014-05-25T06:26:36Z",
+      "side": 1,
+      "message": "the define should be deleted and either do\n#ifdef SOME_NEW_FLAG\n#define COMPAT_GRALLOC_PERFORM\n#endif\nor\n#ifndef NO_COMPAT_GRALLOC_PERFORM\n#define COMPAT_GRALLOC_PERFORM\n#endif\n\nIt would make more sense to use a new flag to enable  the define as not many devices use this... Steve said Hlte, but in the state hlte was a day ago it broke browser playback so not sure what he meant.",
+      "revId": "db9b0b8dbf5f0acb8bae82240353389f3ad5a203",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
