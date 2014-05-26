@@ -34,6 +34,24 @@
       "revId": "db9b0b8dbf5f0acb8bae82240353389f3ad5a203",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da0c15f0_7057c302",
+        "filename": "libgralloc/gralloc_priv.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 6194
+      },
+      "writtenOn": "2014-05-26T03:42:19Z",
+      "side": 1,
+      "message": "But why undef it? Just add \nifndef NO_COMPAT_GRALLOC_PERFORM\n#define COMPAT_GRALLOC_PERFORM\n#endif\n\nSimpler and looks better imo",
+      "parentUuid": "da0c15f0_1c2b0332",
+      "revId": "db9b0b8dbf5f0acb8bae82240353389f3ad5a203",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
