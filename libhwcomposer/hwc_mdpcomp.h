@@ -56,6 +56,7 @@ public:
     static bool init(hwc_context_t *ctx);
     static void resetIdleFallBack() { sIdleFallBack = false; }
     static bool isIdleFallback() { return sIdleFallBack; }
+    static void setIdleTimeout(const uint32_t& timeout);
 
 protected:
     enum { MAX_SEC_LAYERS = 1 }; //TODO add property support
