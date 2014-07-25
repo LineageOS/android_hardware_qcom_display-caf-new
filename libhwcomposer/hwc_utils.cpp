@@ -101,7 +101,7 @@ void changeResolution(hwc_context_t *ctx, int xres_orig, int yres_orig,
             ctx->dpyAttr[HWC_DISPLAY_PRIMARY].yres_new = yres_new;
             ctx->dpyAttr[HWC_DISPLAY_PRIMARY].customFBSize = true;
 
-            //Caluculate DPI according to changed resolution.
+            //Calculate DPI according to changed resolution.
             float xdpi = ((float)xres_new * 25.4f) / (float)width;
             float ydpi = ((float)yres_new * 25.4f) / (float)height;
             ctx->dpyAttr[HWC_DISPLAY_PRIMARY].xdpi = xdpi;
