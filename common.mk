@@ -25,6 +25,10 @@ common_header_export_path := qcom/display-caf-new
 #Common libraries external to display HAL
 common_libs := liblog libutils libcutils libhardware
 
+ifeq ($(TARGET_USES_POST_PROCESSING),true)
+    common_libs += libmm-abl
+endif
+
 #Common C flags
 common_flags += -DDEBUG_CALC_FPS -Wno-missing-field-initializers
 #TODO: Add -Werror back once all the current warnings are fixed
