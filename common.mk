@@ -40,6 +40,10 @@ ifeq ($(call is-board-platform-in-list, msm8974 msm8226 msm8610 apq8084 \
     common_flags += -DMDSS_TARGET
 endif
 
+ifeq ($(TARGET_USES_DUAL_DSI),true)
+    common_flags += -DDUAL_DSI
+endif
+
 common_deps  :=
 kernel_includes :=
 
